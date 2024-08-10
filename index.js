@@ -9,7 +9,7 @@ const userRouter = require('./routes/user_router');
 const authMiddleware = require('./middleware/auth_middleware');
 
 const mongoose = require('mongoose');
-const Mongo_Connection_String = process.env.Mongo_Connection_String || "mongodb+srv://ezra:tutu@cluster0.k5wxugw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" ;
+const Mongo_Connection_String = process.env.Mongo_Connection_String || "your mongo db module" ;
 // Connect to MongoDB
 try {
   mongoose.connect(Mongo_Connection_String  );
