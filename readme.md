@@ -1,4 +1,8 @@
+use npm run dev to run
+
 use environmental to add the  Mongo_Connection_String
+
+models 
 
 // user collection
 {
@@ -32,4 +36,4 @@ use environmental to add the  Mongo_Connection_String
 }
 
 
-in headers add authorization :  token provided by login
+if you use postman in headers add authorization :  token provided by login
